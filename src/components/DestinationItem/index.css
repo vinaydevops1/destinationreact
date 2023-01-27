@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.img-box {
+  height: 200px;
+  width: 200px;
+}
+.card-container {
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px 0px black;
+  padding: 10px;
+  margin: 40px;
+  background-color: white;
+  list-style-type: none;
+}
+.name {
+  font-size: 14px;
+}
+
+@media all and (max-width: 768px) {
+  .img-box {
+    width: 300px;
+    height: 300px;
+  }
+}
